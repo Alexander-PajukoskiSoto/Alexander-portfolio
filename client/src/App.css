@@ -30,3 +30,21 @@
   0%{transform: translate(-300px);}
   100%{transform: translate(0);}
 }
+
+ .asideContainer{
+  width: 70%;
+  display: none;
+ }
+ .linkHover:hover{
+  animation: hoverLink linear 2s infinite;
+ }
+
+@keyframes hoverLink {
+  0%{transform: rotate(0) translate(0);}
+  25%{transform: rotate(.2deg) translate(2px,-2px);
+  }
+  75%{transform: rotate(-.2deg) translate(-2px, 2px);}
+  100%{
+  transform: rotate(0) translate(0);
+  }
+}
