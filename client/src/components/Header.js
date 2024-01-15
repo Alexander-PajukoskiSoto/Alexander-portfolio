@@ -1,4 +1,5 @@
-import React from "react";
+import {React, useState} from "react";
+import { motion } from "framer-motion"
 import about from '../images/about.png'
 import contact from '../images/contact.png'
 import project from '../images/projects.png'
@@ -75,9 +76,15 @@ export default function Header(){
                 <path d="M0 0H998V112C998 124.703 987.703 135 975 135H37C16.5655 135 0 118.435 0 98V0Z" fill="#FFE353"/>
             </svg>
             <div className="navSelectorContainer">
-                <img src={about} alt="about"/>
-                <img src={project} alt="projects"/>
-                <img src={contact} alt="contact"/>
+                <a href="#about">
+                    <img src={about} alt="about"/>
+                </a>
+                <a href="project">
+                    <img src={project} alt="projects"/>
+                </a>
+                <a href="contact">
+                    <img src={contact} alt="contact"/>
+                </a>
             </div>
         </div>
 
