@@ -1,12 +1,12 @@
 import './App.css';
 import Header from './components/Header';
-import Aside from './components/Aside';
+import AsideSvg from './components/AsideSvg';
 function App() {
   return (
     <div className="App">
       <div className='fullDiv'>
       <Header />
-      <Aside />
+      <AsideSvg />
       </div>
       <div className='fullDiv'>
       </div>

@@ -64,7 +64,7 @@
   100%{transform: translate(0);}
 }
 
- .asideContainer{
+ #asideBox{
   position: absolute;
   min-width: 700px;
   min-height: 401.68px;
@@ -72,9 +72,6 @@
   height: 28.69dvw;
   bottom: 0;
   left:0;
- }
-
- .linkHover:hover{
  }
  .linkHover:hover .projectTextContainer{
   fill: #e6ca41;
@@ -86,7 +83,7 @@
   fill: rgb(217, 211, 211);
  }
  .linkHover:hover .textShadow{
-  fill: green;
+  fill: rgb(255, 128, 60);
  }
 @keyframes hoverLink {
   0%{transform: rotate(0) translate(0);}
