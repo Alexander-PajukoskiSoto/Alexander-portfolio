@@ -2,9 +2,42 @@
   margin:0;
   padding: 0;
 }
+.fullDiv{
+  width: 100%;
+  height: 100dvh;
+}
+.header1{
+  position: fixed;
+  width: 100dvw;
+  display: flex;
+}
+.navLogo{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.navSelector{
+  width: 100px;
+}
+.nav1{
+  width: 700px;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+.navContainer{
+  width: 50%;
+  display: flex;
+}
 
+.mainHeadPart{
+  position: fixed;
+  width: 100%;
+  height: 85px;
+  background-color: #FFE353;
+}
 .aside{
-  width: 500px;
+  width: 50%;
 }
 .blob1{
   animation: backforth 3s infinite;
@@ -32,17 +65,32 @@
 }
 
  .asideContainer{
-  width: 70%;
-  display: none;
- }
- .linkHover:hover{
-  animation: hoverLink linear 2s infinite;
+  position: absolute;
+  min-width: 700px;
+  min-height: 401.68px;
+  width: 50dvw;
+  height: 28.69dvw;
+  bottom: 0;
+  left:0;
  }
 
+ .linkHover:hover{
+ }
+ .linkHover:hover .projectTextContainer{
+  fill: #e6ca41;
+ }
+ .linkHover:hover *{
+  animation: hoverLink linear 2s infinite;
+ }
+ .linkHover:hover .projectText{
+  fill: rgb(217, 211, 211);
+ }
+ .linkHover:hover .textShadow{
+  fill: green;
+ }
 @keyframes hoverLink {
   0%{transform: rotate(0) translate(0);}
-  25%{transform: rotate(.2deg) translate(2px,-2px);
-  }
+  25%{transform: rotate(.2deg) translate(2px,-2px);}
   75%{transform: rotate(-.2deg) translate(-2px, 2px);}
   100%{
   transform: rotate(0) translate(0);
