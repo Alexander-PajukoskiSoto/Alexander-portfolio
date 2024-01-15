@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "@react-spring/web": "^9.7.3"
+    "framer-motion": "^10.18.0"
   }
 }
