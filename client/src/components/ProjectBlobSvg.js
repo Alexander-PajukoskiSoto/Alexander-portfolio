@@ -221,24 +221,30 @@ const ProjectBlobSvg = (props) => (
           </g>
         </g>
         <g id="hitBox">
+            <a href="https://github.com/Alexander-PajukoskiSoto/MeetingDisplay">
           <path
             id="hitBox03"
             d="M443 357C443 344.297 453.297 334 466 334H636C661.405 334 682 354.595 682 380V510C682 537.062 660.062 559 633 559H487C462.699 559 443 539.301 443 515V357Z"
             fill="#FFE353"
             fillOpacity={0.05}
           />
+          </a>
+          <a href="https://github.com/Alexander-PajukoskiSoto/ApiSLProject/tree/main">
           <path
             id="hitBox02"
             d="M90 386C90 373.297 100.297 363 113 363H283C308.405 363 329 383.595 329 409V539C329 566.062 307.062 588 280 588H134C109.699 588 90 568.301 90 544V386Z"
             fill="#FFE353"
             fillOpacity={0.05}
           />
+          </a>
+          <a href="https://github.com/Alexander-PajukoskiSoto/PHPCalendar">
           <path
             id="hitBox01"
             d="M783 394C783 381.297 793.297 371 806 371H976C1001.41 371 1022 391.595 1022 417V547C1022 574.062 1000.06 596 973 596H827C802.699 596 783 576.301 783 552V394Z"
             fill="#FFE353"
             fillOpacity={0.05}
           />
+          </a>
         </g>
         <g id="hide">
           <rect

@@ -203,3 +203,11 @@ body{
 #contentPocket{
   display: none;
 }
+
+#strayFlow{
+  width: 50px;
+  position: absolute;
+  right: 1100px;
+  z-index: 3;
+}
+

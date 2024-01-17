@@ -4,6 +4,9 @@ const SideBlobSvg = (props) => (
         <path d="M6.10352e-05 148H370C451.738 148 518 81.7381 518 0V0H6.10352e-05V148Z" fill="#FFE353"/>
     
     </svg>
+    <svg width="57" viewBox="0 0 65 754" fill="none" xmlns="http://www.w3.org/2000/svg" id="strayFlow">
+        <path d="M0 0H65V712.636C65 735.481 46.4809 754 23.6364 754C10.5824 754 0 743.418 0 730.364V0Z" fill="#53A2FF"/>
+    </svg>
 
     <svg
       viewBox="0 0 254 882"
