@@ -14,7 +14,8 @@ body{
   position: fixed;
   width: 100dvw;
   display: flex;
-  z-index: 2;
+  z-index: 1;
+
 }
 .navLogo{
   position: fixed;
@@ -154,3 +155,28 @@ body{
   translate: 33px;
 }
 
+/* PROJECT PAGE */
+.projectHeader{
+  position: absolute;
+  width: 1700px;
+  right: 0;
+  z-index: 2;
+}
+.projectHeaderConainer{
+    width: 1000px;
+  height: 90px;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+}
+.iconBlob{
+  position: absolute;
+  left: 0;
+  z-index: 3;
+  width: 500px;
+}
+.sideBlob{
+  height: 85dvh;
+  position: absolute;
+  left: 0;
+}
