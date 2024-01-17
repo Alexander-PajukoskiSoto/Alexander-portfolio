@@ -180,3 +180,14 @@ body{
   position: absolute;
   left: 0;
 }
+
+.projectBlob{
+  width: 64dvw;
+  min-width: 1000px;
+  position: absolute;
+  z-index: -2;
+  right: 10%;
+}
+#hide, #projectDisplayContainer{
+  display: none;
+}
