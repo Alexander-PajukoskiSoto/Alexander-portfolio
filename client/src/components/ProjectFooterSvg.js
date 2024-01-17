@@ -148,6 +148,7 @@ const ProjectFooterSvg = (props) => (
           </g>
         </g>
         <g id="projectLogos">
+          <a href="https://www.instagram.com/alexanderpajukoskisoto/" target="_blank">
           <g id="InstaGram">
             <path
               id="Vector"
@@ -182,6 +183,8 @@ const ProjectFooterSvg = (props) => (
               />
             </g>
           </g>
+          </a>
+          <a href="https://www.linkedin.com/in/alexander-pajukoski-soto-b1554b292/" target="_blank">
           <g id="linkedInLogo">
             <path
               id="XMLID_802_"
@@ -216,6 +219,8 @@ const ProjectFooterSvg = (props) => (
               />
             </g>
           </g>
+          </a>
+          <a href="https://github.com/Alexander-PajukoskiSoto" target="_blank">
           <g id="gitHubLogo">
             <g id="Group 16">
               <path
@@ -230,6 +235,7 @@ const ProjectFooterSvg = (props) => (
               />
             </g>
           </g>
+          </a>
         </g>
         <g id="contentPocket">
           <path
