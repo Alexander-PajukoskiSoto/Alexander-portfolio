@@ -37,7 +37,7 @@ const ProjectHeaderSvg = (props) => (
             d="M0 0H1800V86C1800 113.062 1778.06 135 1751 135H0V0Z"
             fill="#53A2FF"
         />
-        
+
         </svg>
     </>
 

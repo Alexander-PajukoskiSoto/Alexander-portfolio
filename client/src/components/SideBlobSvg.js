@@ -2,7 +2,7 @@ const SideBlobSvg = (props) => (
     <>
     <svg viewBox="0 0 518 148" fill="none" xmlns="http://www.w3.org/2000/svg" className="iconBlob">
         <path d="M6.10352e-05 148H370C451.738 148 518 81.7381 518 0V0H6.10352e-05V148Z" fill="#FFE353"/>
-
+    
     </svg>
 
     <svg
@@ -42,7 +42,7 @@ const SideBlobSvg = (props) => (
           fill="#53A2FF"
         />
         <path
-          id="Rectangle 114"
+          id="zIndexChange"
           d="M172 0L172 364C172 458.993 94.993 536 0 536V536L0 0L172 0Z"
           fill="#FFE353"
         />
