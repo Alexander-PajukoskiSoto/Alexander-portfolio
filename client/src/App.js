@@ -6,19 +6,21 @@ import RightAside from './components/RightAsideSvg';
 import ProjectHeader from './components/ProjectHeaderSvg';
 import SideBlob from './components/SideBlobSvg';
 import ProjectBlob from './components/ProjectBlobSvg';
+import FooterSvg from './components/FooterSvg';
 function App() {
   return (
     <div className="App">
-      <div className='fullDiv'>
-      <Header />
-      <AsideSvg />
-      <RightAside />
-      <img src={selfPortrait} className='selfPortrait'/>
+      <div className='fullDiv w'>
+        <Header />
+        <AsideSvg />
+        <RightAside />
+        <img src={selfPortrait} className='selfPortrait'/>
       </div>
-      <div className='fullDiv'>
+      <div className='fullDiv b'>
         <SideBlob className="sideBlob"/>
         <ProjectHeader className="projectHeader"/>
         <ProjectBlob className="projectBlob"/>
+        <FooterSvg className="footer"/>
       </div>
     </div>
   );

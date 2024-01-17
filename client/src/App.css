@@ -160,7 +160,7 @@ body{
   position: absolute;
   width: 1700px;
   right: 0;
-  z-index: 2;
+  z-index:33;
 }
 .projectHeaderConainer{
     width: 1000px;
@@ -185,9 +185,17 @@ body{
   width: 64dvw;
   min-width: 1000px;
   position: absolute;
-  z-index: -2;
+  z-index: -1;
   right: 10%;
 }
 #hide, #projectDisplayContainer{
   display: none;
+}
+
+/* FOOTER */
+.footer{
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  z-index:333;
 }

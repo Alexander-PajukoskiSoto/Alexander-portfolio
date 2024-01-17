@@ -55,6 +55,21 @@ const ProjectBlobSvg = (props) => (
             d="M0 0H65V712.636C65 735.481 46.4809 754 23.6364 754C10.5824 754 0 743.418 0 730.364V0Z"
             fill="#53A2FF"
           />
+          <path
+            id="Rectangle 138"
+            d="M624 0H651V369.774C651 377.631 644.631 384 636.774 384V384C629.719 384 624 378.281 624 371.226V0Z"
+            fill="#FFE353"
+          />
+          <path
+            id="Rectangle 139"
+            d="M959 0H986V432.774C986 440.631 979.631 447 971.774 447V447C964.719 447 959 441.281 959 434.226V0Z"
+            fill="#FFE353"
+          />
+          <path
+            id="Rectangle 140"
+            d="M143 0H170V369.774C170 377.631 163.631 384 155.774 384V384C148.719 384 143 378.281 143 371.226V0Z"
+            fill="#FFE353"
+          />
         </g>
         <g id="projectDisplayContainer">
           <path
@@ -294,5 +309,5 @@ const ProjectBlobSvg = (props) => (
       </defs>
     </svg>
   )
-  export default ProjectBlobSvg
+  export default ProjectBlobSvg;
   
