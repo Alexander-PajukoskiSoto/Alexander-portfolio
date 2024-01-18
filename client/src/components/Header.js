@@ -79,10 +79,10 @@ export default function Header(){
                 <a href="#about">
                     <img src={about} alt="about"/>
                 </a>
-                <a href="project">
+                <a href="#project">
                     <img src={project} alt="projects"/>
                 </a>
-                <a href="contact">
+                <a href="#contact">
                     <img src={contact} alt="contact"/>
                 </a>
             </div>
