@@ -19,10 +19,10 @@ function App() {
       <div className="fullDiv">
         <SideBlob className="sideBlob"/>
         <ProjectHeader className="projectHeader"/>
-        <ProjectBlob className="projectBlob" id="project"/>
+        <ProjectBlob className="projectBlob"/>
         <div className="doubleFullDiv">
           <div className="fullDiv"></div>
-          <div className="fullDiv footerDiv" >
+          <div className="fullDiv footerDiv">
           <ProjectFooterSvg className="footer" id="contact"/>
           </div>
         </div>
