@@ -16,11 +16,13 @@ function App() {
         <RightAside />
         <img src={selfPortrait} className='selfPortrait' alt='self-portrait'/>
       </div>
-      <div className='fullDiv'>
+      <div className="fullDiv">
         <SideBlob className="sideBlob"/>
         <ProjectHeader className="projectHeader"/>
         <ProjectBlob className="projectBlob"/>
-        <ProjectFooterSvg className="footer"/>
+        <div className="doubleFullDiv">
+          <ProjectFooterSvg className="footer"/>
+        </div>
       </div>
     </div>
   );

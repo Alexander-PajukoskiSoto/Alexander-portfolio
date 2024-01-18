@@ -302,6 +302,7 @@ const AsideSvg = (props) => (
 
             {BUBBLE_PATHS.path.map((path,index)=>(
                 <motion.path
+                key={index}
                 id={`asideBubble${index}`}
                 d={path}
                 fill={BUBBLE_PATHS.color[index]}
@@ -320,8 +321,7 @@ const AsideSvg = (props) => (
     </svg>
     <div className="aboutMeTextContainer">
             <h4>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum 
-
+              I'm a passionate developer and I burn for learning more about 
             </h4>
     </div>
     </>
