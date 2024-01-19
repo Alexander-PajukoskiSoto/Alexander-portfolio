@@ -321,7 +321,7 @@ const AsideSvg = (props) => (
     </svg>
     <div className="aboutMeTextContainer">
             <h4>
-              I'm a passionate developer and I burn for learning more about 
+              Hello! I am a Junior Fullstack Developer and very passionate about web development! I am alway looking for new things to learn, in my freetime aswell as at school/work. Thus far I have a highschool deploma in IT and also about to graduate my fourth extra IT-year!<br/> Certificates:Html/CSS basics, Javascript basics
             </h4>
     </div>
     </>

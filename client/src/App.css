@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding: 0;
+  font-family: 'Roboto','Times New Roman', Times, serif;
 }
 html {
   scroll-behavior: smooth;
@@ -13,6 +14,7 @@ body{
 .fullDiv{
   width: 100%;
   height: 100dvh;
+  position: relative;
 }
 .header1{
   position: sticky;
@@ -66,29 +68,38 @@ body{
 
   
 }
+
+.aboutMeContainer{
+  position: absolute;
+  width: 30%;
+  min-width: 400px;
+  bottom: 25px;
+  right: 25px;
+  z-index: -3;
+}
 .aboutMeTextContainer{
   animation: comeIn ease-in .5s;
-  min-width: 271px;
-  min-height: 220px;
-  width: 25dvw;
+  width: 25%;
+  min-width:250px ;
   height: 20dvw;
-  max-height: 300px;
   position: absolute;
-  bottom: 4dvw;
-  left: 0;
+  bottom: 30px;
+  right: 50px;
   line-height: 1.75em;
   color: rgb(255, 255, 255);
   overflow: scroll;
   display: flex;
   align-items: center;
   border-radius: 0 5px 5px 0;
-  background-color: rgba(32, 32, 32, 0.122);
+  overflow: hidden;
+  z-index: -2;
 }
 .aboutMeTextContainer>*{
   display: inline;
+  text-shadow: 1px 1px 1px black;
 }
 @keyframes comeIn {
-  0%{transform: translate(-300px);}
+  0%{transform: translate(300px);}
   100%{transform: translate(0);}
 }
 
@@ -143,10 +154,11 @@ body{
 }
 .selfPortrait{
   position: absolute;
-  width: 350px;
-  bottom: 0;
-  right: 0; 
-  z-index: -2;
+  width: 22%;
+  min-width: 250px;
+  bottom: 30px;
+  left: 50px; 
+  z-index: 3;
 }
 .JFDLink{
   width: 200px;
@@ -199,35 +211,13 @@ body{
 }
 
 /* FOOTER */
-.footer{
-  width: fit-content;
+#contact{
   z-index:333;
   pointer-events: all;
+  position: absolute;
+  bottom: 0;
 }
 
 #contentPocket{
   display: none;
-}
-
-
-.doubleFullDiv{
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 100%;
-  height: 100dvh;
-  z-index: 333;
-  pointer-events: none;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-}
-.footerDiv{
-  display: flex;
-  align-items: flex-end;
-}
-
-#projectDisplayContainer{
-  width: 0px;
-  display: inline;
 }

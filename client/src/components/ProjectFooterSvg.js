@@ -1,10 +1,14 @@
-const ProjectFooterSvg = (props) => (
+import React from "react"
+
+
+ function ProjectFooterSvg()  {
+  return(
 
     <svg
       viewBox="0 0 1800 134"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      {...props}
+      id="contact"
     >
       <g id="footer">
         <g id="projectFooterFLow">
@@ -148,7 +152,7 @@ const ProjectFooterSvg = (props) => (
           </g>
         </g>
         <g id="projectLogos">
-          <a href="https://www.instagram.com/alexanderpajukoskisoto/" target="_blank">
+          <a href="https://www.instagram.com/alexanderpajukoskisoto/" target="_blank"  rel="noreferrer">
           <g id="InstaGram">
             <path
               id="Vector"
@@ -184,7 +188,7 @@ const ProjectFooterSvg = (props) => (
             </g>
           </g>
           </a>
-          <a href="https://www.linkedin.com/in/alexander-pajukoski-soto-b1554b292/" target="_blank">
+          <a href="https://www.linkedin.com/in/alexander-pajukoski-soto-b1554b292/" target="_blank"  rel="noreferrer">
           <g id="linkedInLogo">
             <path
               id="XMLID_802_"
@@ -220,7 +224,7 @@ const ProjectFooterSvg = (props) => (
             </g>
           </g>
           </a>
-          <a href="https://github.com/Alexander-PajukoskiSoto" target="_blank">
+          <a href="https://github.com/Alexander-PajukoskiSoto" target="_blank"  rel="noreferrer">
           <g id="gitHubLogo">
             <g id="Group 16">
               <path
@@ -281,6 +285,6 @@ const ProjectFooterSvg = (props) => (
         </g>
       </g>
     </svg>
-  )
+  )}
   export default ProjectFooterSvg
   
